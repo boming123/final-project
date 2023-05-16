@@ -4,7 +4,6 @@ class Passenger:
         self.current_floor = current_floor
         self.destination_floor = destination_floor
 
-
 class Elevator:
     def __init__(self, id, capacity=5):
         self.id = id
@@ -12,6 +11,7 @@ class Elevator:
         self.passengers = []
         self.current_floor = 1
         self.floors_to_visit = [1]
+        self.operations = []
 
     def can_add_passenger(self):
         return len(self.passengers) < self.capacity
@@ -21,6 +21,8 @@ class Elevator:
             raise Exception("Elevator is at capacity")
 
         self.passengers.append(passenger)
+        self.operations.append(f'Elevator {self.id} take {passenger.name} at floor {passenger.current_floor}')
+
         if passenger.current_floor not in self.floors_to_visit:
             self.floors_to_visit.append(passenger.current_floor)
         if passenger.destination_floor not in self.floors_to_visit:
@@ -30,6 +32,16 @@ class Elevator:
         self.floors_to_visit.sort(key=lambda x: abs(x-self.current_floor))
         self.current_floor = self.floors_to_visit[0]
 
+    def run(self):
+        while self.floors_to_visit:
+            current_floor = self.floors_to_visit.pop(0)
+            self.operations.append(f'Elevator {self.id} arrives at floor {current_floor}')
+            
+            # Check if any passengers need to get off at this floor
+            self.passengers = [p for p in self.passengers if p.destination_floor != current_floor]
+            
+            if self.floors_to_visit:
+                self.sort_floors()
 
 class Building:
     def __init__(self, elevators, passengers):
@@ -37,19 +49,22 @@ class Building:
         self.passengers = passengers
 
     def assign_passengers(self):
-        for passenger in self.passengers:
-            added_passenger = False
-            while not added_passenger:
+        while self.passengers:
+            for elevator in self.elevators:
+                if elevator.can_add_passenger():
+                    passenger = self.passengers.pop(0)
+                    elevator.add_passenger(passenger)
+                    elevator.sort_floors()
+                    break
+            else:
                 for elevator in self.elevators:
-                    if elevator.can_add_passenger():
-                        elevator.add_passenger(passenger)
-                        elevator.sort_floors()
-                        added_passenger = True
-                        break
-
+                    elevator.run()
+                    
     def print_elevator_schedules(self):
-        for elevator in self.elevators:
-            print(f"Elevator {elevator.id} will visit floors: {', '.join(map(str, elevator.floors_to_visit))}")
+        with open('elevator_log.txt', 'w') as f:
+            for elevator in self.elevators:
+                f.write("\n".join(elevator.operations))
+                f.write("\n")
 
 
 def read_passenger_file(file_name):
