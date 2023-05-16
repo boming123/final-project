@@ -1,0 +1,188 @@
+Elevator 1 take Passenger1 at floor 3
+Elevator 1 take Passenger2 at floor 5
+Elevator 1 take Passenger3 at floor 5
+Elevator 1 take Passenger4 at floor 4
+Elevator 1 take Passenger5 at floor 5
+Elevator 1 arrives at floor 1
+Elevator 1 arrives at floor 3
+Elevator 1 arrives at floor 4
+Elevator 1 arrives at floor 5
+Elevator 1 take Passenger21 at floor 1
+Elevator 1 take Passenger22 at floor 4
+Elevator 1 take Passenger23 at floor 2
+Elevator 1 take Passenger24 at floor 6
+Elevator 1 take Passenger25 at floor 6
+Elevator 1 arrives at floor 6
+Elevator 1 arrives at floor 5
+Elevator 1 arrives at floor 4
+Elevator 1 arrives at floor 3
+Elevator 1 arrives at floor 2
+Elevator 1 arrives at floor 1
+Elevator 1 take Passenger41 at floor 4
+Elevator 1 take Passenger42 at floor 5
+Elevator 1 take Passenger43 at floor 1
+Elevator 1 take Passenger44 at floor 5
+Elevator 1 take Passenger45 at floor 3
+Elevator 1 arrives at floor 1
+Elevator 1 arrives at floor 2
+Elevator 1 arrives at floor 3
+Elevator 1 arrives at floor 4
+Elevator 1 arrives at floor 5
+Elevator 1 take Passenger61 at floor 5
+Elevator 1 take Passenger62 at floor 5
+Elevator 1 take Passenger63 at floor 6
+Elevator 1 take Passenger64 at floor 2
+Elevator 1 take Passenger65 at floor 2
+Elevator 1 arrives at floor 5
+Elevator 1 arrives at floor 4
+Elevator 1 arrives at floor 3
+Elevator 1 arrives at floor 2
+Elevator 1 arrives at floor 1
+Elevator 1 arrives at floor 6
+Elevator 1 take Passenger81 at floor 2
+Elevator 1 take Passenger82 at floor 3
+Elevator 1 take Passenger83 at floor 2
+Elevator 1 take Passenger84 at floor 1
+Elevator 1 take Passenger85 at floor 5
+Elevator 2 take Passenger6 at floor 5
+Elevator 2 take Passenger7 at floor 4
+Elevator 2 take Passenger8 at floor 3
+Elevator 2 take Passenger9 at floor 2
+Elevator 2 take Passenger10 at floor 4
+Elevator 2 arrives at floor 1
+Elevator 2 arrives at floor 2
+Elevator 2 arrives at floor 3
+Elevator 2 arrives at floor 4
+Elevator 2 arrives at floor 5
+Elevator 2 arrives at floor 6
+Elevator 2 take Passenger26 at floor 4
+Elevator 2 take Passenger27 at floor 4
+Elevator 2 take Passenger28 at floor 6
+Elevator 2 take Passenger29 at floor 5
+Elevator 2 take Passenger30 at floor 4
+Elevator 2 arrives at floor 5
+Elevator 2 arrives at floor 4
+Elevator 2 arrives at floor 6
+Elevator 2 arrives at floor 2
+Elevator 2 arrives at floor 1
+Elevator 2 take Passenger46 at floor 5
+Elevator 2 take Passenger47 at floor 3
+Elevator 2 take Passenger48 at floor 1
+Elevator 2 take Passenger49 at floor 4
+Elevator 2 take Passenger50 at floor 3
+Elevator 2 arrives at floor 2
+Elevator 2 arrives at floor 3
+Elevator 2 arrives at floor 4
+Elevator 2 arrives at floor 5
+Elevator 2 arrives at floor 6
+Elevator 2 arrives at floor 1
+Elevator 2 take Passenger66 at floor 6
+Elevator 2 take Passenger67 at floor 2
+Elevator 2 take Passenger68 at floor 3
+Elevator 2 take Passenger69 at floor 2
+Elevator 2 take Passenger70 at floor 3
+Elevator 2 arrives at floor 3
+Elevator 2 arrives at floor 2
+Elevator 2 arrives at floor 1
+Elevator 2 arrives at floor 4
+Elevator 2 arrives at floor 5
+Elevator 2 arrives at floor 6
+Elevator 2 take Passenger86 at floor 1
+Elevator 2 take Passenger87 at floor 2
+Elevator 2 take Passenger88 at floor 4
+Elevator 2 take Passenger89 at floor 5
+Elevator 2 take Passenger90 at floor 6
+Elevator 3 take Passenger11 at floor 1
+Elevator 3 take Passenger12 at floor 3
+Elevator 3 take Passenger13 at floor 2
+Elevator 3 take Passenger14 at floor 1
+Elevator 3 take Passenger15 at floor 1
+Elevator 3 arrives at floor 1
+Elevator 3 arrives at floor 2
+Elevator 3 arrives at floor 3
+Elevator 3 arrives at floor 5
+Elevator 3 arrives at floor 6
+Elevator 3 take Passenger31 at floor 3
+Elevator 3 take Passenger32 at floor 2
+Elevator 3 take Passenger33 at floor 6
+Elevator 3 take Passenger34 at floor 6
+Elevator 3 take Passenger35 at floor 5
+Elevator 3 arrives at floor 6
+Elevator 3 arrives at floor 5
+Elevator 3 arrives at floor 3
+Elevator 3 arrives at floor 2
+Elevator 3 arrives at floor 1
+Elevator 3 take Passenger51 at floor 1
+Elevator 3 take Passenger52 at floor 3
+Elevator 3 take Passenger53 at floor 3
+Elevator 3 take Passenger54 at floor 4
+Elevator 3 take Passenger55 at floor 6
+Elevator 3 arrives at floor 1
+Elevator 3 arrives at floor 2
+Elevator 3 arrives at floor 3
+Elevator 3 arrives at floor 4
+Elevator 3 arrives at floor 5
+Elevator 3 arrives at floor 6
+Elevator 3 take Passenger71 at floor 4
+Elevator 3 take Passenger72 at floor 3
+Elevator 3 take Passenger73 at floor 5
+Elevator 3 take Passenger74 at floor 2
+Elevator 3 take Passenger75 at floor 4
+Elevator 3 arrives at floor 4
+Elevator 3 arrives at floor 3
+Elevator 3 arrives at floor 2
+Elevator 3 arrives at floor 1
+Elevator 3 arrives at floor 5
+Elevator 3 arrives at floor 6
+Elevator 3 take Passenger91 at floor 3
+Elevator 3 take Passenger92 at floor 2
+Elevator 3 take Passenger93 at floor 5
+Elevator 3 take Passenger94 at floor 4
+Elevator 3 take Passenger95 at floor 3
+Elevator 4 take Passenger16 at floor 6
+Elevator 4 take Passenger17 at floor 5
+Elevator 4 take Passenger18 at floor 4
+Elevator 4 take Passenger19 at floor 2
+Elevator 4 take Passenger20 at floor 4
+Elevator 4 arrives at floor 1
+Elevator 4 arrives at floor 2
+Elevator 4 arrives at floor 3
+Elevator 4 arrives at floor 4
+Elevator 4 arrives at floor 5
+Elevator 4 arrives at floor 6
+Elevator 4 take Passenger36 at floor 2
+Elevator 4 take Passenger37 at floor 6
+Elevator 4 take Passenger38 at floor 3
+Elevator 4 take Passenger39 at floor 6
+Elevator 4 take Passenger40 at floor 6
+Elevator 4 arrives at floor 6
+Elevator 4 arrives at floor 5
+Elevator 4 arrives at floor 4
+Elevator 4 arrives at floor 3
+Elevator 4 arrives at floor 2
+Elevator 4 take Passenger56 at floor 3
+Elevator 4 take Passenger57 at floor 3
+Elevator 4 take Passenger58 at floor 4
+Elevator 4 take Passenger59 at floor 2
+Elevator 4 take Passenger60 at floor 1
+Elevator 4 arrives at floor 3
+Elevator 4 arrives at floor 4
+Elevator 4 arrives at floor 5
+Elevator 4 arrives at floor 6
+Elevator 4 arrives at floor 2
+Elevator 4 arrives at floor 1
+Elevator 4 take Passenger76 at floor 3
+Elevator 4 take Passenger77 at floor 4
+Elevator 4 take Passenger78 at floor 2
+Elevator 4 take Passenger79 at floor 3
+Elevator 4 take Passenger80 at floor 4
+Elevator 4 arrives at floor 3
+Elevator 4 arrives at floor 4
+Elevator 4 arrives at floor 2
+Elevator 4 arrives at floor 1
+Elevator 4 arrives at floor 6
+Elevator 4 take Passenger96 at floor 3
+Elevator 4 take Passenger97 at floor 6
+Elevator 4 take Passenger98 at floor 6
+Elevator 4 take Passenger99 at floor 2
+Elevator 4 take Passenger100 at floor 1
